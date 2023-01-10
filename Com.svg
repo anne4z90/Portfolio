@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Min_tegning" data-name="Min tegning" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2509.73 1428.41">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #313fa3;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        stroke: #4d74ad;
+      }
+
+      .cls-3 {
+        fill: #232d75;
+        font-family: CourierNewPSMT, 'Courier New';
+        font-size: 43.73px;
+      }
+    </style>
+  </defs>
+  <g id="Com">
+    <rect class="cls-2" x="538.59" y="224.02" width="1387.66" height="802.24" rx="14" ry="14" transform="translate(237.7 -334.12) rotate(17.06)"/>
+    <path class="cls-2" d="m279.5,904.06l155.05-96.85c4.63-2.89,19.2-1.5,35.02,3.36l1282.24,393.59c16.14,4.95,29.12,12.13,30.98,17.13l59.74,160.58c2.44,6.55-14.92,6.63-36.09.16L309.4,924.71c-21.66-6.62-36.25-16.69-29.9-20.65Z"/>
+    <path class="cls-2" d="m932.05,1077.39l18.94-15.98c1.78-1.5,5.33-1.78,8.85-.68l240.69,74.68c3.39,1.05,6.08,3.16,6.8,5.32l8.08,24.24c1.26,3.79-3.85,5.93-9.78,4.09l-267.71-82.94c-5.78-1.79-8.79-6.27-5.87-8.73Z"/>
+    <text class="cls-3" transform="translate(725.27 190.26) rotate(17.06)"><tspan x="0" y="0">&lt;!DOCTYPE html&gt;</tspan><tspan x="0" y="52.47">&lt;html lang=&quot;da&quot;&gt;</tspan><tspan x="0" y="104.95">&lt;head&gt;</tspan><tspan x="0" y="157.42" xml:space="preserve">   &lt;title&gt;Mental breakdown&lt;/title&gt;</tspan><tspan x="0" y="209.9">&lt;/head&gt;</tspan><tspan x="0" y="262.37">&lt;body&gt;</tspan><tspan x="0" y="314.84">&lt;h1&gt; Jeg lærer det aldrig &lt;/h1&gt;</tspan><tspan x="0" y="367.32">&lt;p&gt; Hjææælp &lt;/p&gt;</tspan><tspan x="0" y="419.79">&lt;/body&gt;</tspan><tspan x="0" y="472.26">&lt;/html&gt;</tspan></text>
+    <text></text>
+    <rect class="cls-1" x="579.99" y="269.02" width="1308.83" height="699.1" transform="translate(235.86 -335) rotate(17.06)"/>
+  </g>
+</svg>

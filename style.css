@@ -1,0 +1,245 @@
+/******* baggrundsfarve *****/
+
+main{
+  background-color: #E9EFF9;
+  padding: 3rem;
+}
+
+/***** burgermenu *****/
+
+.main-menu img {
+  width: 12%;
+  margin: 15px;
+}
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 12px;
+  cursor: pointer;
+  display: none;
+}
+/* Mobile only */
+@media (max-width: 850px) {
+  .main-menu ul {
+    list-style: none;
+    padding: 0;
+  
+    /* 2. Få elementerne til at stå ved siden af hinanden */
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .toggle-btn {
+    display: block;
+  }
+
+  .main-menu.shown {
+    display: contents;
+  }
+  .main-menu ul {
+    display: none;
+    
+  }
+
+  .main-menu.shown ul {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 100%;
+  }
+}
+
+/***** alle links *****/
+
+a{
+  text-decoration: none;
+  color: #9eb2d5;
+  font-family: 'DM Serif Display', serif;
+  line-height: 2rem;
+  text-align: center; 
+  
+}
+a:hover {
+  color: navy;
+}
+div{
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+
+/****** logo **************/
+
+.logo{
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+    width: min(20vw, 200px);
+    }
+
+.grid_box{
+    gap: 1rem;
+}
+
+/****** font ***********/
+
+*
+h1, h2{
+  font-family: 'DM Serif Display', serif;
+  line-height: 2rem;
+  border-bottom: 1px solid #000;
+  margin-bottom: 2rem;
+}
+h3{
+  font-family: 'DM Serif Display', serif;
+  line-height: 2rem;
+  font-size: 20px;
+}
+h4{
+  font-family: 'DM Serif Display', serif;
+  font-size: 16px;
+}
+h5{
+  font-family: 'DM Serif Display', serif;
+  font-size: 12px;
+  line-height: 1px;
+}
+p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 2rem;
+text-align: start;
+word-break:normal;
+}
+/******* hover effect ******/
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6{ 
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /***** repeat ****/ 
+  .grid_1:hover .image {
+    opacity: 0.3;
+  }
+  .grid_1:hover .middle {
+    opacity: 1;
+  }
+  .grid_2:hover .middle {
+    opacity: 1;
+  }
+  .grid_2:hover .image {
+    opacity: 0.3;
+  }
+  .grid_3:hover .middle {
+    opacity: 1;
+  }
+  .grid_3:hover .image {
+    opacity: 0.3;
+  }
+  .grid_4:hover .middle {
+    opacity: 1;
+  }
+  .grid_4:hover .image {
+    opacity: 0.3;
+  }
+  .grid_5:hover .middle {
+    opacity: 1;
+  }
+  .grid_5:hover .image {
+    opacity: 0.3;
+  }
+  .grid_6:hover .middle {
+    opacity: 1;
+  }
+  .grid_6:hover .image {
+    opacity: 0.3;
+  }
+  
+  /*** hover text ***/
+  .text {
+    font-family: 'Roboto Mono', monospace;
+    color: darkblue;
+    font-size: 30px;
+    padding: 16px 32px;
+  }
+
+  /******* web *******/
+
+
+  body{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .grid_box2{
+    gap: 10rem;
+}
+
+/******* ux **********/
+
+.bg_img{
+  margin-bottom: 6rem;
+}
+.grid_box3{
+  gap: 5rem;
+}
+.h2{
+  text-align: center;
+  margin-top: 5rem;
+  font-family: 'DM Serif Display', serif;
+}
+
+/******* animation ******/
+
+
+
+/******** indhold *******/
+
+
+h1, h2{
+  text-align: center;
+}
+.indhold{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+li {
+  display: inline;
+  padding-left: 3rem;
+}
+ul{
+  display: flex;
+    
+    font-size: 16px;
+    list-style-type: none;
+    overflow-x: auto;
+    justify-content: center;
+  
+}
+
+/******* about ********/
+
+.grid_1_1_1_1{
+  margin-right: 3rem;
+}
+.grid_2_2_2_2 {
+  border-radius: 50%;
+}

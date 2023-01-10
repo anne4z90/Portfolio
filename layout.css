@@ -1,0 +1,165 @@
+/****** mobile only ****/
+      img, video {
+        width: 100%;
+        display: block;
+        align-self: stretch;
+        padding: 10px;
+        object-fit: cover;
+      }
+      .logo{
+        max-width: 15%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .order{
+        order: -1;
+    }
+/******** index *****/
+
+@media (min-width: 850px) {
+.grid_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.grid_1{
+    display: grid;
+}
+.logo{
+    max-width: 7%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/****** web ******/
+
+    .grid_box2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+    }
+    
+    .grid_1_1{
+        grid-column: 1/2;
+    }
+    .grid_2_2{
+        grid-column: 2/3;
+    }
+
+/******* ux **********/
+
+.grid_box3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+.grid_3_3{
+    grid-column: 1;
+}
+
+.grid_4_4{
+    grid-column: 2;
+}
+
+/****** indhold *******/
+
+    .grid_box4{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 2rem;
+        margin: 2rem;
+        box-sizing: border-box;
+    }
+    
+    .grid_1_1_1{
+        grid-column: 1/3;
+        
+        margin-bottom: 1rem;
+    }
+    .grid_3_3_3{
+        grid-column: 1/3;
+    }
+    .grid_box7{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
+        margin-bottom: 6rem;
+    }
+    .et{
+        grid-column: 1;
+        grid-row: 1/2;
+    }
+    .to{
+        grid-column: 2/5;
+    }
+    .tre{
+        grid-column: 1/3;
+
+    }
+    .fire{
+        grid-column: 3/5;
+    }
+
+/******** about ********/
+
+    .grid_box5{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        box-sizing: border-box;
+    }
+    .grid_2_2_2_2{
+    max-width: 700px;
+        margin: auto;
+    }
+    .cv_grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+.skills{
+    grid-column: 1/2;
+}
+.explain{
+    grid-column: 2/4;
+}
+
+/********* animation ************/
+
+.grid_box8{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+.grid1{
+    grid-column: 1/2;
+}
+.grid2{
+    grid-column: 2/4;
+}
+/******** portfolio *************/
+
+.grid_box6{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+.grid_06_01{
+    display: grid;
+    grid-column: 1;
+}
+.grid_06_02{
+    display: grid;
+    grid-column: 2;
+}
+.grid_06_03{
+    display: grid;
+    grid-column: 3;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex :last-child {
+    margin-top: auto;
+  }
+}

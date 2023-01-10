@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Min_tegning" data-name="Min tegning" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157.7 123.73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a04b5;
+      }
+    </style>
+  </defs>
+  <g id="Burgermenu">
+    <path id="Rectangle_1" data-name="Rectangle 1" class="cls-1" d="m14.56,0h128.59C151.18,0,157.7,6.52,157.7,14.56h0c0,8.04-6.52,14.56-14.56,14.56H14.56C6.52,29.11,0,22.6,0,14.56h0C0,6.52,6.52,0,14.56,0Z"/>
+    <path id="Rectangle_2" data-name="Rectangle 2" class="cls-1" d="m15.77,46.1h126.16c8.71,0,15.77,7.06,15.77,15.77h0c0,8.71-7.06,15.77-15.77,15.77H15.77c-8.71,0-15.77-7.06-15.77-15.77h0c0-8.71,7.06-15.77,15.77-15.77Z"/>
+    <path id="Rectangle_3" data-name="Rectangle 3" class="cls-1" d="m16.98,89.77h123.73c9.38,0,16.98,7.6,16.98,16.98h0c0,9.38-7.6,16.98-16.98,16.98H16.98c-9.38,0-16.98-7.6-16.98-16.98h0c0-9.38,7.6-16.98,16.98-16.98Z"/>
+  </g>
+</svg>

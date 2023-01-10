@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Min_tegning" data-name="Min tegning" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1928.34 1826.35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff8d4;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 19px;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        font-family: BebasNeue-Regular, 'Bebas Neue';
+        font-size: 193.58px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-1.66" width="1930" height="1826.35"/>
+  <rect class="cls-2" x="-1.66" width="1930" height="1826.35"/>
+  <text class="cls-5" transform="translate(298.58 913.17)"><tspan x="0" y="0">de</tspan><tspan class="cls-3" x="148.86" y="0">t</tspan><tspan x="221.26" y="0">te er et e</tspan><tspan class="cls-4" x="814.19" y="0">k</tspan><tspan x="892.98" y="0">sempel</tspan></text>
+</svg>
